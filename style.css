@@ -1,0 +1,39 @@
+* {
+    margin : 0;
+    padding: 0;
+}
+header {
+    width: 100%;
+}
+.container {
+    width: 80%;
+    margin: 0 auto;
+    display: flex; 
+}
+header img {
+    width: 20%;
+    height: 20%;
+}
+h1 {
+    margin : 3em auto;
+}
+#date {
+    font-size: large;
+}
+main {
+    display: flex;
+    justify-content: center;
+}
+section {
+    min-height: 50vh;
+    width: 40%;
+    text-align: center;
+    margin-top: 5em;
+    border: solid;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+p {
+    margin: 2em;
+}
